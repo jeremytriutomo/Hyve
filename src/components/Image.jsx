@@ -9,7 +9,11 @@ const Image = ({src, className, w, h, alt}) => {
     className={className} 
     alt={alt}
     width={w}
-    height={h}></IKImage>
+    height={h}
+    transformation={[
+      {width: w,height: h,},
+    ]}>
+    </IKImage>
   )
 }
 
